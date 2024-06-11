@@ -17,5 +17,10 @@ Note: n must be less than the length of the string.
 # there only needs to be a range of letters being dropped and not specific ones
 
 
-def remove_letters(word: str) -> str:
-    pass
+# Creating a function with two parameters; the word, and the range being taken out of word
+def remove_letters(word: str, n: int) -> str:
+    return word[n:]
+
+
+print(remove_letters('pynative', 4))
+print(remove_letters('pynative', 2))
