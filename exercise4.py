@@ -18,9 +18,13 @@ Note: n must be less than the length of the string.
 
 
 # Creating a function with two parameters; the word, and the range being taken out of word
-def remove_letters(word: str, n: int) -> str:
+def remove_letters1(word: str, n: int) -> str:
     return word[n:]
 
 
-print(remove_letters('pynative', 4))
-print(remove_letters('pynative', 2))
+print(remove_letters1('pynative', 4))
+print(remove_letters1('pynative', 2))
+
+
+def remove_letters2(word: str, n: int) -> str:
+    pass
