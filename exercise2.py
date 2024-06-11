@@ -1,9 +1,9 @@
-'''
+"""
 EXERCISE 2: Print the sum of the current number and the previous number
 
 Write a program to iterarte the first 10 numbers, and in each iteration, print the sum of the current
 and previous number
-'''
+"""
 
 # I will start making a function for this program to take in one integer
 # Then, I will start by creating a range of 10
