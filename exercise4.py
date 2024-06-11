@@ -26,5 +26,19 @@ print(remove_letters1('pynative', 4))
 print(remove_letters1('pynative', 2))
 
 
+print("\n")
+
+
+# I am going to make a range with the length of the string given
+# I will turn the word into a list, and then take the words out by the range given
+# Then I will turn the list back into a string by using the join method
 def remove_letters2(word: str, n: int) -> str:
-    pass
+    # converting into a list
+    lis = list(word)
+    for i in range(n):
+        lis.pop(i)
+    return "".join(lis)
+
+
+print(remove_letters1('pynative', 4))
+print(remove_letters1('pynative', 2))
