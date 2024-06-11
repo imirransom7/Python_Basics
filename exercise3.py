@@ -25,6 +25,16 @@ def even_only_indexes1(word: str):
 even_only_indexes1('pynative')
 
 
+# creating function for new solution
 def even_only_indexes2(word: str):
-    pass
+    print(f'Original String: {word}')
+
+    # slicing with starting at the first index and stepping by 2, and stopping at the end, that's why the middle,
+    # or the stop, is empty
+    for i in word[0::2]:
+        print(i)
+
+
+even_only_indexes2('pynative')
+
 
