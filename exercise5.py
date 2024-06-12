@@ -10,4 +10,6 @@ different then return False.
 # To make it short and concise, I will just return the two lists with the equals operator between them
 
 def first_and_last1(list1, List[int], list2: List[int]) -> boolean:
-  return 
+  return lis1t[0] == list2[-1]
+
+
