@@ -32,4 +32,10 @@ def substring(sentence: str) -> int:
 # calling in my function
 print(substring("Emma is good developer. Emma is a writer"))
 
+# There is another solution that is a lot more concise by using the '.count' method
 
+# creating my function that will take in a string and return a number
+def sub(sentence: str) -> int:
+  return sentence.count('Emma')
+
+  
