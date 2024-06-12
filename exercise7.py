@@ -13,4 +13,23 @@ Write a program to find how many times substring “Emma” appears in the given
 
 # creating a function that takes in a a string and returns a number
 def substring(sentence: str) -> int:
-  pass
+# creating counter to keep track of substrings with 'Emma'
+  counter = 0
+  
+  # converting string into a list with spaces as the delemeter
+  new_list = sentence.split(" ")
+  # I am now creating a for loop that will iterate through my newly created list
+  for new in new_list:
+    # making a conditonal, comparing the current element with the string/word 'Emma'
+    if new == 'Emma':
+      # incrementing the counter once this condition is met
+      counter += 1
+
+  # returning the counter since it will have the amount of 'Emma' substrings
+  return counter
+
+
+# calling in my function
+print(substring("Emma is good developer. Emma is a writer"))
+
+
