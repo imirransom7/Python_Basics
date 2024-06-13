@@ -26,10 +26,10 @@ palindrome_number1(121)
 # going to create a fucntuion similar to the first one
 # convert number into a list
 # Then I will use control flow to compare each element in reverse
-def palindrome_number2(nums: int):
+def palindrome_number2(number: int):
   # creating a counter to count if the elements are the same
   counter = 0
-  nums = list(nums)
+  nums = list(number)
   # creating a for loop to iterate through the list
   for i in range(len(nums)):
     # creating another for loop inside the first for loop to compare the list with itself in reverse
