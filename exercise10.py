@@ -12,7 +12,7 @@ should contain odd numbers from the first list and even numbers from the second 
 # Then, I will append all of that to a new list and return that list
 
 def even_and_odd1(list1: List[int], list2: List[int]) -> List[int]:
-  new_list = [list1[x], list2 for x in range(0, len(list1), 2) for y in range(1, len(list2)), 2]
+  new_list = [list1[x], list2[y] for x in range(0, len(list1), 2) for y in range(1, len(list2)), 2]
     return new_list
 
 
