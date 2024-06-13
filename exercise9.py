@@ -29,13 +29,15 @@ palindrome_number1(121)
 def palindrome_number2(number: int):
   # creating a counter to count if the elements are the same
   counter = 0
-  nums = list(number)
+  # converting to a list and using str to make t
+  nums = list(str(number))
   # creating a for loop to iterate through the list
   for i in range(len(nums)):
     # creating another for loop inside the first for loop to compare the list with itself in reverse
     for j in range(len(nums), 0, -1):
-      # counter will increment 
-      count+=1
+      # counter will increment if i is equal to j
+      if i == j:
+        count+=1
 
   # if the counter is the same as the length of the list, if it is, then that means the same amount of elements were equal to each other
    which shold be the same as the list
@@ -45,11 +47,4 @@ def palindrome_number2(number: int):
     print("No. Given number is not palindrome")
     
     
-      
-
-
-
-
-
-
-
+palindrome_number2(121)
