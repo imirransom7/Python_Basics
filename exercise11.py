@@ -17,7 +17,7 @@ def reveres_int(number: int) -> str:
   # Now, I will reverse the order of the numbers using slicing And since the elements have already been turned into a string,
   # I can use the join methoduse the join method to convert the list back into a string with spaces as a delimeter
   # Using the strip method to get rid of the spaces at the beginning and end of the string
-  return " ".join(nums[::-1]).strp()
+  return " ".join(nums[::-1])
 
 
 print(reverse_int(7536))
