@@ -23,7 +23,7 @@ Expected Output:
 def multi_table(num: int):
     # creating the first for loop
     for i in range(1, num+1):
-        print(i)
+        print("")
         for j in range(1, num+1):
             print(i*j, end="\t")
     
