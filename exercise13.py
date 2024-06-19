@@ -14,3 +14,16 @@ Expected Output:
 9  18 27 36 45 54 63 72 81 90 		
 10 20 30 40 50 60 70 80 90 100 
 """
+
+# Going to create a function for that takes in two numbers as parameters and will print
+# out the table above. I will then make a for loop with another for loop nested within it
+# It will loop through a range of arguements given to the function
+
+def multi_table(num1: int, num2: int):
+    # creating the first for loop
+    for i in range(num1, num2):
+      print(i)
+        for j in i:
+            print(i*j, end="\t")
+    
+    
