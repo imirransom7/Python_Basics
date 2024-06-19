@@ -15,15 +15,17 @@ Expected Output:
 10 20 30 40 50 60 70 80 90 100 
 """
 
-# Going to create a function for that takes in two numbers as parameters and will print
-# out the table above. I will then make a for loop with another for loop nested within it
-# It will loop through a range of arguements given to the function
+# Going to create a function for that takes in one number as parameters and will print
+# out the table above. I will then make a for loop with another for loop nested within
+# It will loop through a range of a given number
 
-def multi_table(num1: int, num2: int):
+
+def multi_table(num: int):
     # creating the first for loop
-    for i in range(num1, num2):
-      print(i)
-        for j in i:
+    for i in range(1, num+1):
+        print(i)
+        for j in range(1, num+1):
             print(i*j, end="\t")
     
-    
+
+multi_table(10)
