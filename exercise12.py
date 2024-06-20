@@ -11,9 +11,14 @@ For example, suppose the taxable income is 45000, and the income tax payable is
 # of the money after the first and second 10,000 used in the equation. Then, I will return the answer
 
 
-def taxable(nums: int) -> int:
+def taxable(income: float) -> float:
     # implementing the equation given and subtracting the number given by 20,000 to get the remainder
-    return (10000 * .00) + (10000 * .10) + ((nums - 20,000) * .20)
+    # making a conditional for if the taxable income is less than or equal to 10,000
+    if income <= 10000:
+
+
+
+    return (10000 * .00) + (10000 * .10) + ((income - 20000) * .20)
 
 
 print(taxable(45000))
