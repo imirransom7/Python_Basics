@@ -15,3 +15,17 @@ def exponent(base: int, exp: int) -> int:
 
 print(exponent(2, 5))
 print(exponent(5, 4))
+
+
+# Here is another way to solve it
+def expo(base, exp):
+    num = exp
+    result = 1
+    while num > 0:
+        result = result * base
+        num = num - 1
+    print(base, "raises to the power of", exp, "is: ", result)
+
+
+expo(5, 4)
+
