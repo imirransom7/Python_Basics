@@ -25,7 +25,28 @@ def multi_table(num: int):
     for i in range(1, num+1):
         print("")
         for j in range(1, num+1):
-            print(i*j, end="\t")
-    
+            print(i*j, end=" ")
+
+# My way of making look just like the example at the top
+# def multi_table(num: int):
+#     # creating the first for loop
+#     for i in range(1, num+1):
+#         print("")
+#         for j in range(1, num+1):
+#             print(i*j, end=" ")
+
 
 multi_table(10)
+
+# Another way to do it so that it looks exactly like the example at the top
+
+
+def multiple_table(num: int):
+    for i in range(1, num+1):
+        for j in range(1, num+1):
+            print(i*j, end=" ")
+        print("")
+
+
+print('\n')
+multiple_table(10)
