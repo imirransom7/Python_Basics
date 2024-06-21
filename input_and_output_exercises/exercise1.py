@@ -8,7 +8,7 @@ Write a program to accept two numbers from the user and calculate multiplication
 number1, number2 = int(input("Type in your first number ")), int(input("Now, type in your second number "))
 
 
-# writing a function that will take in two integers as parameters
+# writing a function that will take in two integers as parameters; the inputs from the user
 def multiplication(num1: int, num2: int):
     print(f'\nYour inputted numbers multiplied together is {num1 * num2}')
 
