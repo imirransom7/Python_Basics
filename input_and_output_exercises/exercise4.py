@@ -8,8 +8,12 @@ Expected Output
 458.54
 """
 
-# I am going to make a function that takes in a float as a parameter and return that float
+# I am going to make a function that takes in a float as a parameter and print that float
 # with only two decimal places. To do this, I wil b e using the round function
 
-def round_to_two(num: float) -> float:
-    pass
+
+def round_to_two(num: float):
+    print(round(num, 2))
+
+
+round_to_two(458.541315)
