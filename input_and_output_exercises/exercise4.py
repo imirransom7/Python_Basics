@@ -17,3 +17,9 @@ def round_to_two(num: float):
 
 
 round_to_two(458.541315)
+
+
+# Here is another solution using formatting
+
+number = 458.541315
+print('%.2f' % number)
