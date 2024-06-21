@@ -9,3 +9,4 @@ Exercise 2: Display three string "Name", "Is", "James" as
 # delimiter if asterisks ("**")
 
 print("Name", "Is", "James", sep="**")
+
