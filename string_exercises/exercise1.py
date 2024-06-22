@@ -12,3 +12,10 @@ Expected Output:
 Jms
 """
 
+# Starting with initializing the function that will hold one parameter that is a string
+# After that, I will get the first index of the string, then the middle, and then the last
+# by using slicing. Then I will concatenate them together by adding them together
+
+
+def first_middle_last(string: str) -> str:
+    pass
