@@ -16,6 +16,8 @@ def put_in_middle(s1: str, s2: str) -> str:
     # saving the middle index sonce it will be used again
     s1_middle = len(s1) // 2
     # returning s2 in the middle od s1 using slicing
-    return s1[:s1_middle] + s2 + s1[s1_middle:]
+    s3 = s1[:s1_middle] + s2 + s1[s1_middle:]
+    return s3
 
 
+print(put_in_middle("Ault", "Kelly"))
