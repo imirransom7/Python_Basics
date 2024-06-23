@@ -28,3 +28,4 @@ def lower_and_upper(string: str) -> str:
     return s1 + s2
 
 
+print(lower_and_upper("PyNaTive"))
