@@ -13,4 +13,18 @@ arrange the characters of a string so that lowercase letters should come first
 
 
 def lower_and_upper(string: str) -> str:
-    pass
+    # creating an empty string variable for the lowercase letters
+    s1 = ""
+    # now doing the same for the uppercase letters
+    s2 = ""
+    # iterating through the string
+    for s in string:
+        # checking if element is lowercase
+        if s.islower():
+            s1 += s
+        # if it is not lowercase, then it must be uppercase
+        else:
+            s2 += s
+    return s1 + s2
+
+
