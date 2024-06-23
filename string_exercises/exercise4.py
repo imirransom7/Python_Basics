@@ -12,3 +12,5 @@ arrange the characters of a string so that lowercase letters should come first
 # them both together, making sure the lowercase letters are first
 
 
+def lower_and_upper(string: str) -> str:
+    pass
