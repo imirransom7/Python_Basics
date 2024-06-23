@@ -22,4 +22,11 @@ AJrpan
 
 # creating my function to take in two strings
 def first_mid_last(s1: str, s2: str) -> str:
-    pass
+    # getting the middle character for s1
+    s1_mid = len(s1) // 2
+    # getting the middle character for s2
+    s2_mid = len(s2) // 2
+    # adding the first, middle, and last characters from both s1 and s2
+    return s1[0]+s2[0] + s1[s1_mid]+s2[s2_mid] + s1[-1]+s2[-1]
+
+
