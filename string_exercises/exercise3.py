@@ -30,3 +30,4 @@ def first_mid_last(s1: str, s2: str) -> str:
     return s1[0]+s2[0] + s1[s1_mid]+s2[s2_mid] + s1[-1]+s2[-1]
 
 
+print(first_mid_last("America", "Japan"))
