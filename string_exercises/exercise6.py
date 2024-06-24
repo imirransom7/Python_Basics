@@ -32,4 +32,4 @@ def mixed(s1: str, s2: str) -> str:
     return s3
 
 
-
+print(mixed('Abc', "Xyz"))
