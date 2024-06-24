@@ -28,5 +28,7 @@ def numbers_only(s1: str):
     # printing out the sum
     print(f"Sum is: {sum(num)}")
     # printing out the average
-    print(f"\nAverage is: {sum(num) / len(num)}")
+    print(f"Average is: {sum(num) / len(num)}")
 
+
+numbers_only("PYnative29@#8496")
