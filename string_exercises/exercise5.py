@@ -25,7 +25,7 @@ def let_num_sym(string: str):
     # iterating through the string
     for s in string:
         # checking if element is a letter
-        if s.islower():
+        if s.isalpha():
             # adding to counter
             letters += 1
         # checking for numbers:
@@ -36,6 +36,7 @@ def let_num_sym(string: str):
         else:
             symbols += 1
 
+    # printing out the results
     print(f"Letters = {letters}", f"\nDigits = {digits}", f"\nSymbols = {symbols}")
 
 
