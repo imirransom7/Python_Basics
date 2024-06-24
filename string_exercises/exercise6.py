@@ -20,4 +20,16 @@ AzbycX
 
 
 def mixed(s1: str, s2: str) -> str:
-    pass
+    # creating an empty string
+    s3 = ""
+    # iterating through both strings
+    for a, b in zip(s1, s2[::-1]):
+        # adding s1 and s2 to a new string
+        s3 += a
+        s3 += b
+
+    # returning the mixed string
+    return s3
+
+
+
