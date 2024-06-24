@@ -10,3 +10,11 @@ str1 = "Welcome to the USA. usa awesome, isn't it?"
 Expected Outcome
 The USA count is: 2
 """
+# Going to create a function that takes in a string as a parameter and returns an integer
+# to find how many substrings there are of "USA" ignoring the case, I will turn the string into
+# a list that is separated by the spaces in the string. I will also have a counter inplace to count
+# the occurrence of the substring. All that's left is to return the counter
+
+
+def occurrences(string: str) -> int:
+    pass
