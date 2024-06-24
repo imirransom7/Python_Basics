@@ -13,3 +13,11 @@ Expected Output:
 AzbycX
 """
 
+# Going to make a function that takes in a string as a parameter that returns a string
+# when that is done, I will combine the two strings as instructed by using the zip function
+# I will use s1 normally but have s2 reverse when applied in the zip function
+# Next, I will iterate over the zip to then add s1 and s2 together
+
+
+def mixed(s1: str, s2: str) -> str:
+    pass
