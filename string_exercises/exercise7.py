@@ -21,3 +21,7 @@ True                                                        False
 
 def balance(s1: str, s2: str) -> bool:
     return s1 in s2
+
+
+print(balance('Yn', "PYnative"))
+print(balance("Ynf", "PYnative"))
