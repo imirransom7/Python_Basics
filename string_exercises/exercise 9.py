@@ -17,4 +17,16 @@ Sum is: 38 Average is 6.333333333333
 
 
 def numbers_only(s1: str):
-    pass
+    # creating an empty list
+    num = []
+    # iterating through the string
+    for s in s1:
+        # checking to see if the current element is a number
+        if s.isnumeric():
+            # appending the numbers found into the empty list and converting them to numbers
+            num.append(int(s))
+    # printing out the sum
+    print(f"Sum is: {sum(num)}")
+    # printing out the average
+    print(f"\nAverage is: {sum(num) / len(num)}")
+
