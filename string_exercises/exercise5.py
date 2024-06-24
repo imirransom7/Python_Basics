@@ -36,7 +36,7 @@ def let_num_sym(string: str):
         else:
             symbols += 1
 
-        print(f"Letters = {letters}", f"\nDigits = {digits}", f"\nSymbols = {symbols}")
+    print(f"Letters = {letters}", f"\nDigits = {digits}", f"\nSymbols = {symbols}")
 
 
-
+let_num_sym("P@#yn26at^&i5ve")
