@@ -5,7 +5,7 @@ ignoring the case
 Write a program to find all occurrences of "USA" in a given string ignoring the case
 
 Given:
-str1 = "Welcome to the USA. usa awesome, isn't it?"
+str1 = "Welcome to the USA. The usa awesome, isn't it?"
 
 Expected Outcome
 The USA count is: 2
@@ -27,3 +27,6 @@ def occurrences(string: str) -> int:
             counter += 1
 
     return counter
+
+
+print("The USA count is: ", occurrences("Welcome to the USA. The usa is awesome, isn't it?"))
