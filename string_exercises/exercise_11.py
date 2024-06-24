@@ -13,4 +13,4 @@ evitanYP
 
 
 def reverse(str1: str) -> str:
-    pass
+    return str1[::-1]
