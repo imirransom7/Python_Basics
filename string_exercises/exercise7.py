@@ -13,3 +13,9 @@ s2 = "PYnative"                                             s2 = "PYnative"
 Expected Output:                                            Expected Output:
 True                                                        False
 """
+
+# Going to make a function that takes in two strings and returns a boolean.
+# I will compare the strings by seeing if the letters from s1 are in s2 by using the "in"
+# Then, the function will give the boolean
+
+
