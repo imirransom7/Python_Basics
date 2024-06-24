@@ -20,10 +20,11 @@ def occurrences(string: str) -> int:
     # declaring the counter
     counter = 0
 
+    # converting to list using the list function
     st = list(string)
-    for t in st:
-        if not t.isalpha():
-            st.pop()
+    # removing the punctuation
+    st.remove(".")
+    st. remove(",")
     # converting back to string
     sti = "".join(st)
     # converting the string into a list and iterating through it
@@ -40,3 +41,13 @@ def occurrences(string: str) -> int:
 
 print("The USA count is:", occurrences("Welcome to the USA. The usa is awesome, isn't it?"))
 
+
+# A more optimal way to solve this problem
+# creating a function with a string as it's parameter that returns an integer
+def occurrence(string: str) -> int:
+    # making all characters to upper to ignore the case
+    upper_str = string.upper()
+    return upper_str.count("USA")
+
+
+print("The USA count is:", occurrence("Welcome to the USA. The usa is awesome, isn't it?"))
