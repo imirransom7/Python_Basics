@@ -19,3 +19,5 @@ True                                                        False
 # Then, the function will give the boolean
 
 
+def balance(s1: str, s2: str) -> bool:
+    return s1 in s2
