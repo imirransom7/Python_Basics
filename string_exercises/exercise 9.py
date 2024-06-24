@@ -25,10 +25,30 @@ def numbers_only(s1: str):
         if s.isnumeric():
             # appending the numbers found into the empty list and converting them to numbers
             num.append(int(s))
-    # printing out the sum
-    print(f"Sum is: {sum(num)}")
-    # printing out the average
-    print(f"Average is: {sum(num) / len(num)}")
+    # printing out the sum and the average
+    print(f"Sum is: {sum(num)}\nAverage is: {sum(num) / len(num)}")
 
 
 numbers_only("PYnative29@#8496")
+
+# Another solution to solve this problem
+
+
+def only_numbers(s1: str):
+    # declaring a total for the sum and a counter for the average
+    total = 0
+    cnt = 0
+    for char in s1:
+        # checking if element is a digit
+        if char.isdigit():
+            # adding all digits together that are found
+            total += int(char)
+            # incrementing everytime a digit is found
+            cnt += 1
+
+    # average = sum / count of digits
+    avg = total / cnt
+    print("\nSum is:", total, "Average is ", avg)
+
+
+only_numbers("PYnative29@#8496")
