@@ -17,4 +17,13 @@ The USA count is: 2
 
 
 def occurrences(string: str) -> int:
-    pass
+    # declaring the counter
+    counter = 0
+    # converting the string into a list and iterating through it
+    for s in list(string):
+        # checking if element matched the substring while ignoring the case
+        if s.upper() == 'USA':
+            # incrementing the counter for the amount of occurrences
+            counter += 1
+
+    return counter
