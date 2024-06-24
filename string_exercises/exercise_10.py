@@ -31,3 +31,18 @@ def occurrences(str1: str) -> dict:
 
 # printing dictionary for the string provided
 print(occurrences("Apple"))
+
+
+# Here is another solution to the problem
+def occurrence(str1: str) -> dict:
+    # creating empty dictionary
+    letter_dict = {}
+    # iterating through given string
+    for s in str1:
+        # add or update the count of the character using the count method
+        # this will add the letter as the key and the occurrences of the letter as the value
+        letter_dict[s] = str1.count(s)
+    return letter_dict
+
+
+print(occurrence("Apple"))
