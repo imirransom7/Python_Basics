@@ -20,13 +20,17 @@ def occurrences(string: str) -> int:
     # declaring the counter
     counter = 0
     # converting the string into a list and iterating through it
-    for s in list(string):
+    for s in string.split(" "):
         # checking if element matched the substring while ignoring the case
         if s.upper() == 'USA':
+            print(s.upper())
             # incrementing the counter for the amount of occurrences
             counter += 1
 
     return counter
 
 
-print("The USA count is: ", occurrences("Welcome to the USA. The usa is awesome, isn't it?"))
+print("The USA count is:", occurrences("Welcome to the USA. The usa is awesome, isn't it?"))
+
+
+print("Welcome to the USA. The usa is awesome, isn't it?".split(" "))
