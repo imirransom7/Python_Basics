@@ -26,3 +26,8 @@ def occurrences(str1: str) -> dict:
         # if the letter is not in the dictionary, then it will be added with a value starting at one
         else:
             new_dict[s] = 1
+    return new_dict
+
+
+# printing dictionary for the string provided
+print(occurrences("Apple"))
