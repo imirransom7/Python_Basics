@@ -31,6 +31,7 @@ print(reverse("PYnative"))
 #     # returning the reversed string
 #     return str2
 
+
 def reversing(str1: str) -> str:
     # using the join() method with the reverse function to reverse the given string
     return "".join(reversed(str1))
