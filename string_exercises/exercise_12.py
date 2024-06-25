@@ -10,11 +10,11 @@ Expected OutputL
 Last occurrence of Emma starts at index 43
 """
 
-# I will create a function that will take a string as a parameter that returns an integer
+# I will create a function that will take two strings as parameters that returns an integer
 # To find the last occurrence of Emma where that index is, I can use the builtin method .rfind(), which
 # returns the last occurrence of the inputted element's index. Once that is done, I will return the index
 
 
-def last_index(str1: str) -> int:
-    pass
+def last_index(str1: str, str2: str) -> int:
+    return str1.rfind(str2)
 
