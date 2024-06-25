@@ -24,6 +24,9 @@ scientist
 
 
 def no_hyphens(str1: str):
-    pass
-
+    print("Displaying each substring")
+    # iterating though a list split from the hyphens present in the string
+    for word in str1:
+        # printing out elements
+        print(word)
 
