@@ -17,3 +17,13 @@ data
 scientist
 """
 
+# I am going to create a function that takes in a string that will print it out divided without
+# its hyphens. To do this, I will turn the given string into a list using the split() method, splitting
+# the string up into a list by the hyphens present in the string. I will then iterate through the
+# newly created list and print it out by each element
+
+
+def no_hyphens(str1: str):
+    pass
+
+
