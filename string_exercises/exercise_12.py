@@ -18,3 +18,6 @@ Last occurrence of Emma starts at index 43
 def last_index(str1: str, str2: str) -> int:
     return str1.rfind(str2)
 
+
+print("Last occurrence of Emma starts at index", last_index(
+ "Emma is a data scientist who knows Python. Emma works at google.", "Emma"))
