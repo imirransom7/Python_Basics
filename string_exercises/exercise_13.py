@@ -4,7 +4,7 @@ Exercise 13: Split a string on hyphens
 Write a program to split a given string on hyphens and display the substring.
 
 Given:
-str1 = Emma-is-a-data-scientist
+str1 = "Emma-is-a-data-scientist"
 
 Expected Output:
 
@@ -24,9 +24,11 @@ scientist
 
 
 def no_hyphens(str1: str):
-    print("Displaying each substring")
+    print("Displaying each substring\n")
     # iterating though a list split from the hyphens present in the string
-    for word in str1:
+    for word in str1.split("-"):
         # printing out elements
         print(word)
 
+
+no_hyphens("Emma-is-a-data-scientist")
