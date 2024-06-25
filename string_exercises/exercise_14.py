@@ -13,11 +13,20 @@ After removing empty strings
 ['Emma', 'Jon', 'Kelly', 'Eric']
 """
 
-# I will start by creating a function that takes in a string and returns a list. I will remove the elements that
+# I will start by creating a function that takes in a list and returns a list. I will remove the elements that
 # are None values or are empty strings by using a conditional that checks the length of the string. if the length
 # of the string is 0, then it will be removed
 
 
-def no_empty_str(str1: str) -> list[str]:
-    pass
+def no_empty_str(str_list: list) -> list[str]:
+    # creating empty list
+    new_list = []
+    # iterating through the given list
+    for string in str_list:
+        # checking if the element's length is at least one
+        if len(string) >= 1:
+            # populating new list without empty strings
+            new_list.append(string)
+    # returning list without empty strings
+    return new_list
 
