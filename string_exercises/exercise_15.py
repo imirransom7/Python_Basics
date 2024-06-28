@@ -14,5 +14,18 @@ Jon is developer musician"
 # are letters or symbols. Then I will use the join() method to convert the list back into a string
 
 
-def no_symbols(str1: str) -> str:
-  pass
+def no_symbols(str1: str):
+    # using split method to convert string to list; creating empyt list
+    new_list, non_str = str1.split(" "), []
+    # iterating through newly created list
+    for word in new_list:
+        # iterating within the list
+        for letter in word:
+            # checking if element is not a letter
+            if not letter.isalpha():
+                # deleting element if it is not a letter
+                del letter
+    print("".join(new_list))
+
+
+no_symbols("/*Jon is @developer & musician")
