@@ -29,3 +29,5 @@ def no_symbols(str1: str):
 
 
 no_symbols("/*Jon is @developer & musician")
+
+
