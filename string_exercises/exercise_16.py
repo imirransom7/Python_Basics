@@ -24,3 +24,4 @@ def only_numbers(str1: str) -> int:
     return int(nums)
 
 
+print(only_numbers('I am 25 years and 10 months old'))
