@@ -20,3 +20,6 @@ def string_and_numbers(str1: str) -> str:
         if element.isnumeric() and element.isalpha():
             # printing out the elements that meet the condition
             print(element)
+
+
+string_and_numbers("Emma25 is Data scientist50 and AI Expert")
