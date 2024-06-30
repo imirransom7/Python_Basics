@@ -12,3 +12,15 @@ Expected Output:
 # the numbers combined from the string. I will iterate through the string and extract the numbers using the
 # isnumeric() method. Then, I will return the string number while casting int() over it so that it is converted
 # into an integer
+
+
+def only_numbers(str1: str) -> int:
+    # creating an empty string
+    nums = ""
+    # searching for the numbers in the string
+    for number in str1:
+        if number.isnumeric():
+            nums += number
+    return int(nums)
+
+
