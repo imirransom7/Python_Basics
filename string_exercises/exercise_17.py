@@ -22,4 +22,5 @@ def string_and_numbers(str1: str) -> str:
             print(element)
 
 
+# this currrently does not give out the expected output
 string_and_numbers("Emma25 is Data scientist50 and AI Expert")
